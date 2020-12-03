@@ -158,6 +158,7 @@ public class AddNewStudent extends javax.swing.JFrame {
            if(pst.executeUpdate()>0){
                JOptionPane.showMessageDialog(rootPane,"Successfully Inserted");
                this.setVisible(false);
+              
            }else{
              error.setText("Could not insert data");
              error.setVisible(true);
